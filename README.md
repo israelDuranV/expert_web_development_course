@@ -103,12 +103,35 @@ The course took place on August 2017.
         1. Mixins, Elements and utils
         1. UI and application elements
     1. Custom elements
+        1. Custom elements concepts
+        1. Define an element
+        1. Declare properties
     1. Shadow DOM and styling
+        1. Shadow DOM concepts
+        1. DOM templating
+        1. Style shadow DOM
+        1. Custom CSS properties
     1. Events
+        1. Handle and fire events
+        1. Gesture events
     1. Data system
+        1. Data system concepts
+        1. Work with object and array data
+        1. Observers and computed properties
+        1. Data binding
+        1. Helper elements
     1. Polymer CLI
+        1. Installation
+        1. Commands
     1. Web component tester
+        1. Mocha
+        1. Chai
+        1. Test fixture
     1. Polymer.json
+        1. Entrypoint
+        1. Shell
+        1. Fragments
+        1. Other configurations
 1. Development tools (package managers and linters)
     1. Gulp
         1. Gulpfile
@@ -249,6 +272,8 @@ https://docs.google.com/presentation/d/1wgIUHwkA42C1rImZmUWdXoIZptkrP3yrnQssHA70
 * Biedelman, Eric. HTML imports. https://www.html5rocks.com/en/tutorials/webcomponents/imports/
 * Biedelman, Eric. Html's new template tag. https://www.html5rocks.com/en/tutorials/webcomponents/template/
 * Brubeck, Matt. https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html
+* Burns, Peter. Encapsulated routing with elements. https://www.polymer-project.org/blog/routing
+* Burns, Peter. Modular routing. https://www.youtube.com/watch?v=FbJQ4ghag_M
 * Crockford, Douglas. The javascript trilogy. https://www.youtube.com/playlist?list=PL5586336C26BDB324
 * CSS reflow demo. https://www.youtube.com/watch?v=ZTnIxIA5KGw
 * CSS triggers. https://csstriggers.com/
@@ -257,10 +282,13 @@ https://docs.google.com/presentation/d/1wgIUHwkA42C1rImZmUWdXoIZptkrP3yrnQssHA70
 * https://developers.google.com/web/tools/
 * Dodson, Rob. Introduction to focus. https://developers.google.com/web/fundamentals/accessibility/focus/
 * Dodson, Rob. Polymer 2.0 Under the hoods. https://www.youtube.com/watch?v=9vYJ8K6A_Kc
+* Dutton, Sam. Progressive Web Apps Course. https://www.youtube.com/playlist?list=PLNYkxOF6rcIAdnzEsWkg0KpMn2WJwMBmN
 * ES6 Language Specification. http://www.ecma-international.org/ecma-262/6.0/
 * Garsiel, Tali. How browsers work internally? https://vimeo.com/44182484
 * Gaunt, Matt. Service workers: an introduction. https://developers.google.com/web/fundamentals/getting-started/primers/service-workers
 * Gaunt, Matt. The webapp manifest. https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+* Gaunt, Matt. Intro to Gulp. https://www.youtube.com/watch?v=N42LQ2dLoA8
+* Ginsberg, Wendy. Building Progressive Web Apps with Polymer. https://www.youtube.com/watch?v=fKsVXO3AztY
 * Glazkov, Dimitri. What the heck is shadow DOM? https://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/
 * Grigorik, Ilya. Introduction to HTTP/2. https://developers.google.com/web/fundamentals/performance/http2/
 * Irish, Paul. https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
@@ -272,20 +300,31 @@ https://docs.google.com/presentation/d/1wgIUHwkA42C1rImZmUWdXoIZptkrP3yrnQssHA70
 * Kitamura, Eiji. Introduction to Shadow DOM. https://www.webcomponents.org/community/articles/introduction-to-shadow-dom
 * Kitamura, Eiji. Introduction to Custom Elements. https://www.webcomponents.org/community/articles/introduction-to-custom-elements
 * Kosaka, Mariko. https://medium.com/@kosamari/how-to-be-a-compiler-make-a-compiler-with-javascript-4a8a13d473b4
+* Maynard, Travis. Getting started with Gulp. Packt publishing. 2015.
 * Medley, Joseph. Web push notificaitons: timely, relevant, precise. https://developers.google.com/web/fundamentals/engage-and-retain/push-notifications/
+* Moore, John. Getting organized with NPM and Bower. https://www.packtpub.com/books/content/getting-organized-npm-and-bower
 * Mozilla Developer Network. https://developer.mozilla.org
 * MVCSS. http://mvcss.io/
+* Norton, Gray. Data flow in Polymer Elements and Apps. https://www.youtube.com/watch?v=pAW4YDLtPVs&t=1390s
 * Osamani, Addy. The PRPL pattern. https://developers.google.com/web/fundamentals/performance/prpl-pattern/
 * Osamani, Addy. The app shell model. https://developers.google.com/web/fundamentals/architecture/app-shell
+* Osamani, Addy. Instant Loading with the App Shell Model. https://www.youtube.com/watch?v=QhUzmR8eZAo
 * Page, Wilson. http://wilsonpage.co.uk/preventing-layout-thrashing/
+* Pontelin, Teemu. State of Web Components and Polymer 2.0. https://www.youtube.com/watch?v=aZyt5K0HYVg
 * Posnick, Jake. Service worker registration. https://developers.google.com/web/fundamentals/instant-and-offline/service-worker/registration
 * Polymer Project. https://www.polymer-project.org
+* Polymer Project. https://github.com/Polymer/polymer
+* Polymer Project. The PRPL pattern. https://www.polymer-project.org/2.0/toolbox/prpl
+* Polymer Project. Routing. https://www.polymer-project.org/2.0/toolbox/routing
+* Polymer Project. Layout. https://www.polymer-project.org/2.0/toolbox/app-layout
+* Russel, Alex. Progressive Web Apps. https://www.youtube.com/watch?v=x7cfLDFVyHo
 * Seddon, Ryan. So how do the browser actually renders a website? https://www.youtube.com/watch?v=SmE4OwHztCc
 * Simpson, Kyle. You don’t know JS series. O’Reilly Media. 2015.
 * Sturm, Gerwin. https://codingwithgerwin.blogspot.mx/2017/03/polymer-in-production.html
 * Web APIs list. https://developer.mozilla.org/en-US/docs/Web/API
-* https://www.webcomponents.org/
-* https://www.webcomponents.org/polyfills/
+* Web components catalog. https://www.webcomponents.org/
+* Webcomponents polyfills. https://www.webcomponents.org/polyfills/
+* webcomponents.js polyfills. https://github.com/webcomponents/webcomponentsjs
 * Walto, Philip. Web components and the future of modular CSS. https://philipwalton.github.io/talks/2015-10-26/
 * Wiltzius, Tom. https://www.html5rocks.com/en/tutorials/speed/layers/
 * Zachas, Nicholas. Understanding ECMAscript 6. No starch press. 2016.

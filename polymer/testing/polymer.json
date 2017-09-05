@@ -1,0 +1,15 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/testing-app/testing-app.html",
+  "fragments": [
+    "src/some-element/some-element.html"
+  ],
+  "sources": [
+    "manifest.json"
+  ],
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ]
+  }
+}
